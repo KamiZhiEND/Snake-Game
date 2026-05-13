@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Snake Game | Classic Arcade Style</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="game-container">
+    <div class="game-panel">
+        <canvas id="snakeCanvas" width="500" height="500"></canvas>
+    </div>
+    <div class="info-bar">
+        <div class="score-box">🍎 SCORE <span class="score-value" id="scoreDisplay">0</span></div>
+        <div class="best-box">🏆 BEST <span class="best-value" id="bestDisplay">0</span></div>
+    </div>
+    <div class="controls">
+        <button id="restartButton" class="restart-btn">⟳ RESTART</button>
+        <div class="status" id="statusText">▶ PLAYING</div>
+    </div>
+    <div class="mobile-arrows">
+        <button class="arrow-btn" data-dir="UP">⬆️</button>
+        <button class="arrow-btn" data-dir="LEFT">⬅️</button>
+        <button class="arrow-btn" data-dir="DOWN">⬇️</button>
+        <button class="arrow-btn" data-dir="RIGHT">➡️</button>
+    </div>
+    <footer>← → ↑ ↓ &nbsp;&nbsp;|&nbsp;&nbsp; SWIPE / ARROWS</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
