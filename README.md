@@ -2,11 +2,6 @@
 
 A modern, fully responsive implementation of the classic Snake arcade game built with vanilla HTML5, CSS, and JavaScript. Experience the nostalgia with smooth gameplay, vibrant graphics, and intuitive controls that work on both desktop and mobile devices.
 
-![Game Preview](https://via.placeholder.com/800x400/1a472a/7ef0ba?text=Snake+Game+Preview)
-
-## 🎮 Play Now
-
-[Live Demo](https://yourusername.github.io/snake-game/) *(Replace with your GitHub Pages link)*
 
 ## ✨ Features
 
